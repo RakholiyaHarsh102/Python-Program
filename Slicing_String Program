@@ -1,0 +1,23 @@
+# Slicing String Program
+
+name=str(input("Enter Name :::"))
+print(name[:1])
+print(name[:2])
+print(name[:3])
+print(name[:4])
+print(name[:5])
+
+'''
+  Output = H
+  Explain :
+  0=H
+  1=a
+  2=r
+  3=s
+  4=h
+  
+'''
+print(name[-4:])
+print(name[-3:])
+print(name[-2:])
+print(name[-1:])
